@@ -14,11 +14,11 @@
 			@csrf
 			<div class="mb-3">
 				<label><b>Post title:</b></label>
-				<input type="text" name="title" class="form-control" value={{$posts->post_title}}>
+				<input type="text" required name="title" class="form-control" value={{$posts->post_title}}>
 			</div>
 			<div class="mb-3">
 				<label><b>Post author:</b></label>
-				<input type="text" name="author" class="form-control" value={{$posts->post_author}}>
+				<input type="text" required name="author" class="form-control" value={{$posts->post_author}}>
 			</div>
 			<input type="submit" name="update" value="update" class="btn btn-success">
 		</form>
