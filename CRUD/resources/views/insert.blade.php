@@ -14,11 +14,11 @@
 			@csrf
 			<div class="mb-3">
 				<label><b>Post title:</b></label>
-				<input type="text" name="title" class="form-control">
+				<input type="text" required name="title" class="form-control">
 			</div>
 			<div class="mb-3">
 				<label><b>Post author:</b></label>
-				<input type="text" name="author" class="form-control">
+				<input type="text" required name="author" class="form-control">
 			</div>
 			<input type="submit" name="insert" value="Insert" class="btn btn-primary">
 
